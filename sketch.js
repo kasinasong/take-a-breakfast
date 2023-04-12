@@ -262,7 +262,7 @@ scale=scaleSlider.value();
   pop();
 }
 
-function mousePressed(){
+function touchStarted(){
 
 //click on fried egg 
   if (mouseX > 55 && mouseX < 105 && mouseY > 75 && mouseY < 125) {
